@@ -72,24 +72,6 @@ p {
   }
 }
 
-/* Assignment 30 - Media query for Large Screens */
-@media (min-width: 1824px) {
-  .container {
-    width: 1790px;
-  }
-  header .hero h1 {
-    font-size: 60px;
-    font-weight: normal;
-    margin: 95px 0 0;
-  }
-  header .hero p {
-    font-size: 32px;
-    line-height: 26px;
-    font-weight: 100;
-    margin: 10px 0 40px;
-  }
-}
-
 /* HEADER */
 
 header {
