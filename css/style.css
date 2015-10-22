@@ -296,3 +296,6 @@ header .hero img {
   font-size: 13px;
   margin-top: 30px;
 }
+.offset {
+  margin-top: 20px;
+}
