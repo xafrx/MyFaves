@@ -476,3 +476,80 @@ footer .logo {
   overflow: hidden;
   padding: 20px;
 }
+@media (min-width: 460px) {
+  .content {
+    padding: 1.5em 1%;
+    float: right;
+    width: 90%;
+    position: relative;
+  }
+  .content-item {
+    width: 46%;
+    margin: 0 2% 25px;
+    float: left;
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    padding: 1.5em 5%;
+    float: right;
+    width: 90%;
+    position: relative;
+  }
+  .content > .container {
+    width: 700px;
+  }
+  .content-item {
+    width: 31.33333%;
+    margin: 0 1% 25px;
+  }
+}
+@media (min-width: 992px) {
+  .content {
+    padding: 1.5em 1%;
+    float: right;
+    width: 83.33333333%;
+    position: relative;
+  }
+  .content > .container {
+    width: auto;
+  }
+  .content-item {
+    width: 23%;
+    margin: 0 1% 25px;
+  }
+}
+
+.item-box > img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.item-box h2 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  margin: 0;
+}
+.item-box h2 a {
+  color: #439480;
+  text-decoration: none;
+}
+.item-box h2 img {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+.item-box p {
+  font-size: 14px;
+  color: 333333;
+  line-height: 18px;
+  margin: 5px 0 0;
+}
