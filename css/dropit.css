@@ -16,6 +16,13 @@
     float: right;
     display: inline-block;
 }
+.dropit-inverse {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0;
+    float: right;
+    display: inline-block;
+}
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
     position: absolute;
@@ -30,7 +37,7 @@
 }
 .dropit-inverse.dropit .dropit-submenu {
     position: absolute;
-    top: -140px;
+    top: -260px;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
